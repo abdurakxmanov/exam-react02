@@ -1,0 +1,164 @@
+.pd-page {
+  min-height: 100vh;
+}
+
+.pd-container {
+  display: flex;
+  gap: 40px;
+  padding-top: 50px;
+  padding-bottom: 90px;
+  background: #ffffff;
+  border-radius: 14px;
+}
+
+.pd-thumbs {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.pd-thumb {
+  width: 110px;
+  height: 100px;
+  background: #f4f3f1;
+  border-radius: 8px;
+  padding: 10px;
+  border: 2px solid transparent;
+}
+
+.pd-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.pd-thumb-active {
+  border-color: #c9a13b;
+}
+
+.pd-main-img {
+  flex: 1;
+  background: #f4f3f1;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  min-height: 460px;
+}
+
+.pd-main-img img {
+  max-width: 100%;
+  max-height: 380px;
+  object-fit: contain;
+}
+
+.pd-info {
+  width: 320px;
+  flex-shrink: 0;
+}
+
+.pd-info h1 {
+  font-size: 30px;
+  color: #a99486;
+  font-weight: 500;
+  margin-bottom: 26px;
+}
+
+.pd-label {
+  font-size: 14px;
+  color: #b5b0a8;
+  margin-bottom: 10px;
+}
+
+.pd-colors {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 26px;
+}
+
+.pd-color {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: inline-block;
+  box-shadow: 0 0 0 2px transparent;
+}
+
+.pd-color-active {
+  box-shadow: 0 0 0 2px #ffffff, 0 0 0 4px #c9a13b;
+}
+
+.pd-price {
+  margin-bottom: 26px;
+}
+
+.pd-price-current {
+  font-size: 24px;
+  font-weight: 700;
+  color: #2b2b2b;
+  margin-right: 10px;
+}
+
+.pd-price-old {
+  font-size: 15px;
+  color: #b5aea3;
+  text-decoration: line-through;
+}
+
+.pd-sizes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 34px;
+}
+
+.pd-size {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  border: 1px solid #e3e0da;
+  background: #ffffff;
+  color: #c3bcb0;
+  font-size: 14px;
+}
+
+.pd-size:disabled {
+  color: #d9d3c9;
+  cursor: not-allowed;
+}
+
+.pd-size-active {
+  border-color: #c9a13b;
+  color: #c9a13b;
+  font-weight: 700;
+}
+
+.pd-cart-btn {
+  background: #ffffff;
+  border: 1px solid #2b2b2b;
+  color: #2b2b2b;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 14px 40px;
+  border-radius: 6px;
+}
+
+.pd-not-found {
+  padding: 60px 0;
+  text-align: center;
+  color: #9a9a9a;
+}
+
+@media (max-width: 900px) {
+  .pd-container {
+    flex-direction: column;
+  }
+  .pd-thumbs {
+    flex-direction: row;
+  }
+  .pd-info {
+    width: 100%;
+  }
+}

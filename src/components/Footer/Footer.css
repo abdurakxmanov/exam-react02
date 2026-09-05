@@ -1,0 +1,55 @@
+.footer {
+  background: #6b5646;
+  color: #f0e9df;
+  padding: 30px 0;
+}
+
+.footer-inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.footer-logo {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 22px;
+  font-weight: bold;
+  color: #e0c266;
+  margin-bottom: 6px;
+}
+
+.footer-phone {
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.footer-social {
+  display: flex;
+  gap: 12px;
+  font-size: 16px;
+}
+
+.footer-col p {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  margin-bottom: 10px;
+  color: #e6ddce;
+}
+
+.footer-pay {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.footer-pay-badge {
+  background: #ffffff;
+  color: #2b2b2b;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
