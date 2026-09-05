@@ -9,8 +9,8 @@ function ProductCard({ product }) {
 
   function handleAddToCart() {
     dispatch(addToCart(product))
+    
   }
-
   return (
     <div className="product-card">
       <Link to={`/product/${product.id}`} className="product-card-img">

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { Link } from 'react-router-dom'
 import heroShoe from '../../assets/images/hero-shoe.png'
 import './Banner.css'
@@ -36,6 +37,15 @@ function Banner() {
         </div>
       </div>
     </section>
+=======
+import "./Banner.css"
+
+const Banner = () => {
+  return (
+    <div>
+      
+    </div>
+>>>>>>> e9144a0f0b953b0935e9cdc7fbf4c3c3d69ba711
   )
 }
 

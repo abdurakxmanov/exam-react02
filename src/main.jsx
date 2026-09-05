@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { Provider } from 'react-redux'
@@ -14,4 +15,15 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       </BrowserRouter>
     </Provider>
   </React.StrictMode>
+=======
+import { createRoot } from 'react-dom/client'
+import './index.css'
+import App from './App.jsx'
+import { BrowserRouter } from 'react-router'
+
+createRoot(document.getElementById('root')).render(
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>
+>>>>>>> e9144a0f0b953b0935e9cdc7fbf4c3c3d69ba711
 )

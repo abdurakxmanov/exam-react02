@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { Link, useLocation } from 'react-router-dom'
 import { useSelector } from 'react-redux'
 import { FiSearch, FiShoppingCart, FiUser } from 'react-icons/fi'
@@ -46,6 +47,26 @@ function Navbar() {
         </div>
       </div>
     </header>
+=======
+import "./Navbar.css"
+import { Link } from 'react-router'
+
+const Navbar = () => {
+  return (
+    <div className='Card-list'>
+        <nav>Logo</nav>
+        <ul>
+            <li>
+                <Link to="/addUser">adduser</Link>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <Link to="/userList">userlist</Link>
+            </li>
+        </ul>
+    </div>
+>>>>>>> e9144a0f0b953b0935e9cdc7fbf4c3c3d69ba711
   )
 }
 
